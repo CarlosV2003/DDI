@@ -1,2 +1,0 @@
-# DDI
-EjerciciosDDI
