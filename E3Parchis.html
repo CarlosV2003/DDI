@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags always come first -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	
+	<style>
+        .redbg{
+            background: red;
+        }
+
+        .bluebg{
+            background: rgb(27, 154, 234);
+        }
+
+        .greenbg{
+            background:   rgb(47, 207, 68);
+        }
+
+        .yellowbg{
+            background: rgb(236, 236, 76);
+        }
+
+        .cellcolor{
+            height: 105px;
+            width: 105px;
+            border: solid black 1px;
+        }
+
+        .cell{
+            height: 30px;
+            width: 70px;
+            border: solid black 1px;
+        }
+
+        .cellmargintop{
+            margin-left: -2px;
+            width: 220px;
+        }
+
+        .cellmargin{
+            margin-left: -35px;
+            width: 220px;
+        }
+
+        .space{
+            width: 210px;
+            height: 210px;
+        }
+        .alignright{
+            text-align: right;
+        }
+
+        #rotate1{transform:rotate(180deg); margin-left: -33px }
+        #rotate2{transform:rotate(270deg); margin-left: 5px; margin-top: -15px;}
+        #rotate3{transform:rotate(90deg); margin-left: -5px; margin-top: 5px;}
+
+        .border1{
+            margin-left: -23px;
+        }
+        .border2{
+            margin-left: -27px;
+        }
+        .border3{
+            margin-left: -31px;
+        }
+        .border4{
+            margin-left: -12px;
+        }
+        .border5{
+            margin-left: -15px;
+        }
+        .border6{
+            margin-left: -19px;
+        }
+        .circulo{
+            width: 20px;
+            height: 20px;
+            background-color: orange;
+            border-radius: 50%;
+            margin-top: -21px;
+            margin-left: 25px;
+        }
+
+        .bottomrow{
+            margin-top: -5px;
+        }
+	</style>
+</head>
+<body>
+    <br />
+	<div class="container">
+		<div class="row">	
+            <div class="col-2">
+                <div class="row row-cols-2">
+                    <div class="col-6 redbg cellcolor">a</div>
+                    <div class="col-6 redbg cellcolor">a</div>
+                    <div class="col-6 redbg cellcolor">a</div>
+                    <div class="col-6 redbg cellcolor">a</div>
+                </div>
+            </div>
+            <div class="col-2" id="rotate1">
+                <div class="row">
+                    <div class="col-4 alignright">
+                        <div class="cell border1">27</div>
+                        <div class="cell border1">28</div>
+                        <div class="cell border1">29</div>
+                        <div class="cell border1">30</div>
+                        <div class="cell border1 redbg">31
+                            <div class="circulo"></div>
+                        </div>
+                        <div class="cell border1">32</div>
+                        <div class="cell border1">33</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cell redbg border2"></div>
+                        <div class="cell redbg border2"></div>
+                        <div class="cell redbg border2"></div>
+                        <div class="cell redbg border2"></div>
+                        <div class="cell redbg border2"></div>
+                        <div class="cell redbg border2"></div>
+                        <div class="cell border2 alignright">34 
+                            <div class="circulo"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cell border3">41</div>
+                        <div class="cell border3">40</div>
+                        <div class="cell border3">39</div>
+                        <div class="cell border3">38</div>
+                        <div class="cell border3">37
+                            <div class="circulo"></div>
+                        </div>
+                        <div class="cell border3">36</div>
+                        <div class="cell border3">35</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="row row-cols-2 cellmargintop">
+                    <div class="col-6 bluebg cellcolor">a</div>
+                    <div class="col-6 bluebg cellcolor">a</div>
+                    <div class="col-6 bluebg cellcolor">a</div>
+                    <div class="col-6 bluebg cellcolor">a</div>
+                </div>	
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <div class="col-12" id="rotate3">	
+                    <div class="row">
+                        <div class="col-4 alignright">
+                            <div class="cell border4">44</div>
+                            <div class="cell border4">45</div>
+                            <div class="cell border4">46</div>
+                            <div class="cell border4">47</div>
+                            <div class="cell border4">48
+                                <div class="circulo"></div>
+                            </div>
+                            <div class="cell border4">49</div>
+                            <div class="cell border4">50</div>
+                        </div>
+                        <div class="col-4">
+                            <div class="cell greenbg border5">a</div>
+                            <div class="cell greenbg border5">a</div>
+                            <div class="cell greenbg border5">a</div>
+                            <div class="cell greenbg border5">a</div>
+                            <div class="cell greenbg border5">a</div>
+                            <div class="cell greenbg border5">a</div>
+                            <div class="cell border5 alignright">51
+                                <div class="circulo"></div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="cell border6">58</div>
+                            <div class="cell border6">57</div>
+                            <div class="cell border6">56</div>
+                            <div class="cell border6">55</div>
+                            <div class="cell border6 greenbg">54
+                                <div class="circulo"></div>
+                            </div>
+                            <div class="cell border6">53</div>
+                            <div class="cell border6">52</div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+            <div class="col-2 border1">
+                <img src="images/Parchis.png" class="img" style="width:210px; height:210px;">
+            </div>
+            <div class="col-2" id="rotate2">	
+                <div class="row">
+                    <div class="col-4 alignright">
+                        <div class="cell border4">10</div>
+                        <div class="cell border4">11</div>
+                        <div class="cell border4">12</div>
+                        <div class="cell border4">13</div>
+                        <div class="cell border4">14
+                            <div class="circulo"></div>
+                        </div>
+                        <div class="cell border4">15</div>
+                        <div class="cell border4">16</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cell bluebg border5">a</div>
+                        <div class="cell bluebg border5">a</div>
+                        <div class="cell bluebg border5">a</div>
+                        <div class="cell bluebg border5">a</div>
+                        <div class="cell bluebg border5">a</div>
+                        <div class="cell bluebg border5">a</div>
+                        <div class="cell border5 alignright">17
+                            <div class="circulo"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cell border6">24</div>
+                        <div class="cell border6">23</div>
+                        <div class="cell border6">22</div>
+                        <div class="cell border6">21</div>
+                        <div class="cell border6 bluebg">20
+                            <div class="circulo"></div>
+                        </div>
+                        <div class="cell border6">19</div>
+                        <div class="cell border6">18</div>
+                    </div>
+                </div>
+            </div>	
+        </div>
+        <div class="row bottomrow">	
+            <div class="col-2">
+                <div class="row row-cols-2">
+                    <div class="col-6 greenbg cellcolor">a</div>
+                    <div class="col-6 greenbg cellcolor">a</div>
+                    <div class="col-6 greenbg cellcolor">a</div>
+                    <div class="col-6 greenbg cellcolor">a</div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="row">
+                    <div class="col-4 alignright">
+                        <div class="cell border1">61</div>
+                        <div class="cell border1">62</div>
+                        <div class="cell border1">63</div>
+                        <div class="cell border1">64</div>
+                        <div class="cell border1">65
+                            <div class="circulo"></div>
+                        </div>
+                        <div class="cell border1">66</div>
+                        <div class="cell border1">67</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cell yellowbg border2">a</div>
+                        <div class="cell yellowbg border2">a</div>
+                        <div class="cell yellowbg border2">a</div>
+                        <div class="cell yellowbg border2">a</div>
+                        <div class="cell yellowbg border2">a</div>
+                        <div class="cell yellowbg border2">a</div>
+                        <div class="cell border2 alignright">68
+                            <div class="circulo"></div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="cell border3">7</div>
+                        <div class="cell border3">6</div>
+                        <div class="cell border3">5</div>
+                        <div class="cell border3">4</div>
+                        <div class="cell border3 yellowbg">3
+                            <div class="circulo"></div>
+                        </div>
+                        <div class="cell border3">2</div>
+                        <div class="cell border3">1</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="row row-cols-2 cellmargin">
+                    <div class="col-6 yellowbg cellcolor">a</div>
+                    <div class="col-6 yellowbg cellcolor">a</div>
+                    <div class="col-6 yellowbg cellcolor">a</div>
+                    <div class="col-6 yellowbg cellcolor">a</div>
+                </div>	
+            </div>
+        </div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+
+</body>
+</html>
